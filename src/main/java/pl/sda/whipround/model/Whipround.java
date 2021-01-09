@@ -4,6 +4,7 @@ import lombok.*;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 
 @Builder
@@ -23,6 +24,6 @@ public class Whipround {
     private BigDecimal goal;
     private String description;
     @OneToMany
-    private List<Donation> donations;
+    private List<Donation> donations = new ArrayList<>();
 
 }

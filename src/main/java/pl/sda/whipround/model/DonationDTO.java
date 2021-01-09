@@ -10,5 +10,6 @@ public class DonationDTO {
     String name;
     BigDecimal value;
     String message;
+    int whiproundId;
 
 }
