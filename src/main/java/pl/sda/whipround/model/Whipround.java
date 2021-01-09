@@ -6,6 +6,7 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.List;
 
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
